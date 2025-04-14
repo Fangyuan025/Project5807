@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+automated-test-generation,default,NotEnoughPrecisionException,8,0,0,0,4,0,2,0,2,0
+automated-test-generation,default,Quadratic,319,0,34,0,73,0,24,0,7,0
+automated-test-generation,com.fastaccess.tfl.helper,DateHelper,104,265,3,7,30,51,7,18,4,16
+automated-test-generation,com.fastaccess.tfl.helper,DateHelper.DateFormats,0,322,0,0,0,24,0,3,0,3

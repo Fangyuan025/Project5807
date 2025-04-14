@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DateHelperCategoryPartitionTest" time="0.144" tests="24" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\25289\Desktop\6187\project\QuadraticTesting\target\test-classes;C:\Users\25289\Desktop\6187\project\QuadraticTesting\target\classes;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\25289\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\25289\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\25289\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\25289\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT-04:00"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\java\openjdk\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\25289\AppData\Local\Temp\surefire899696462737778280\surefirebooter15089104543400100277.jar C:\Users\25289\AppData\Local\Temp\surefire899696462737778280 2025-04-14T02-05-50_353-jvmRun1 surefire8744930040080416933tmp surefire_03241994178184823982tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\25289\Desktop\6187\project\QuadraticTesting\target\test-classes;C:\Users\25289\Desktop\6187\project\QuadraticTesting\target\classes;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\25289\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\25289\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\25289\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\25289\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\25289\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\25289"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\java\openjdk\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\25289\Desktop\6187\project\QuadraticTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\25289\AppData\Local\Temp\surefire899696462737778280\surefirebooter15089104543400100277.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="25289"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\25289\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\25289\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\25289\Desktop\6187\project\QuadraticTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\openjdk\jdk-17.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\java\openjdk\jdk-17.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\java\openjdk\jdk-17.0.2\jre\bin;C:\Program Files\MATLAB\R2022a\bin;E:\matlab2018b\2018\runtime\win64;E:\matlab2018b\2018\bin;C:\Program Files\MATLAB\R2018b\runtime\win64;C:\Program Files\MATLAB\R2018b\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Gradle\gradle-8.13\bin;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\25289\AppData\Local\Programs\Python\Python39\Scripts;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Library\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.2\bin;;C:\Users\25289\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\25289\AppData\Local\Programs\Ollama;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDateCalculations{DateCalcTestCase}[1]" classname="DateHelperCategoryPartitionTest" time="0.05"/>
+  <testcase name="testDateCalculations{DateCalcTestCase}[2]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateCalculations{DateCalcTestCase}[3]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateCalculations{DateCalcTestCase}[4]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateCalculations{DateCalcTestCase}[5]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateCalculations{DateCalcTestCase}[6]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[1]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[2]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[3]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[4]" classname="DateHelperCategoryPartitionTest" time="0.002"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[5]" classname="DateHelperCategoryPartitionTest" time="0.003"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[6]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[7]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[8]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatConversionWithCategories{DateTestCase}[9]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateGenerationMethods" classname="DateHelperCategoryPartitionTest" time="0.003"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[1]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[2]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[3]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[4]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[5]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[6]" classname="DateHelperCategoryPartitionTest" time="0.001"/>
+  <testcase name="testDateFormatMethods{DateFormatMethodTestCase}[7]" classname="DateHelperCategoryPartitionTest" time="0"/>
+  <testcase name="testEdgeCases" classname="DateHelperCategoryPartitionTest" time="0.04"/>
+</testsuite>
