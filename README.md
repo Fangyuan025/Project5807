@@ -1,9 +1,18 @@
 # Automated Testing Techniques Project
 
-This project explores and compares advanced testing techniques applied to two case studies:
+This project explores and compares advanced testing techniques applied to two case studies using a Maven-based Java project structure:
 
 1. **DateHelper Class**: A utility class for date formatting and manipulation
 2. **Quadratic Class**: A solver for quadratic equations with support for both real and complex roots
+
+## Maven Configuration
+
+The project uses Maven for build automation and dependency management. Key components in the `pom.xml`:
+
+- JUnit Jupiter (5.8.2) for writing and running tests
+- JaCoCo plugin (0.8.10) for code coverage analysis 
+- PIT plugin (1.14.4) for mutation testing
+- Maven Surefire plugin for test execution
 
 ## Implemented Testing Techniques
 
@@ -84,6 +93,45 @@ For the given case studies:
 - Both techniques complemented each other, creating a robust test suite when used together
 
 Together, these techniques achieved high code coverage, good mutation scores, and reasonable execution times, demonstrating their effectiveness for systematic software testing.
+
+## Project Structure
+
+The project follows standard Maven directory structure:
+
+```
+automated-test-generation/
+├── src/
+│   ├── main/java/
+│   │   ├── com/fastaccess/tfl/helper/
+│   │   │   └── DateHelper.java
+│   │   ├── Quadratic.java
+│   │   └── NotEnoughPrecisionException.java
+│   └── test/java/
+│       ├── DateHelperCategoryPartitionTest.java
+│       ├── DateHelperMetamorphicTest.java
+│       ├── QuadraticCategoryPartitionTest.java
+│       └── QuadraticMetamorphicTest.java
+├── target/
+│   ├── site/jacoco/             # JaCoCo coverage reports
+│   └── pit-reports/             # PIT mutation testing reports
+├── pom.xml                      # Maven configuration
+└── README.md
+```
+
+## Running the Tests
+
+To run the tests and generate reports:
+
+```bash
+# Run all tests
+mvn test
+
+# Generate JaCoCo coverage report
+mvn jacoco:report
+
+# Run mutation tests with PIT
+mvn org.pitest:pitest-maven:mutationCoverage
+```
 
 ## Future Work
 
